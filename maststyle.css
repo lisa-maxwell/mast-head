@@ -1,0 +1,92 @@
+body {
+  background-color: #0e0e0e;
+}
+
+#mastcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    height:13%;
+    background:black;
+}
+
+.redbox {
+    width: 84px;
+    height: 100%;
+    background:#fd3434;
+    color: white;
+    font-family: "Verdana";
+    font-size: 32px;
+    text-align: center;
+    line-height: 280%;
+}
+
+.menu {
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    word-spacing: 40px;
+    font-family: "Verdana";
+    font-size: 11.5px;
+    position: absolute;
+    bottom:40%;
+    left:10%;
+}
+
+.searchbar {
+    width: 239px;
+    height:29px;
+    background:white;
+    position:absolute;
+    bottom:30%;
+    right:40%;
+}
+
+.querybox {
+    width: 29px;
+    height: 29px;
+    background: #fd3434;
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+}
+
+.query-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(100%);
+}
+
+.shopcart {
+  float: right;
+  filter: invert(100%);
+}
+
+.signin {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 10.5px;
+  word-spacing: 5px;
+  font-family: "Verdana";
+  position: absolute;
+  bottom:60%;
+  right:0%;
+}
+
+.cart {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 10.5px;
+  word-spacing: 5px;
+  font-family: "Verdana";
+  position: absolute;
+  bottom:13%;
+  right:0%;
+}
